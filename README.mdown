@@ -1,13 +1,16 @@
-What is iTellAFriend?
-==============================
+#What is iTellAFriend?#
 
 ![](http://cocoapod-badges.herokuapp.com/v/iTellAFriend/badge.png) &nbsp; ![](http://cocoapod-badges.herokuapp.com/p/iTellAFriend/badge.png)
 
 
 iTellAFriend is an iOS toolkit for displaying a preconfigued mail composer with a "Tell a Friend" template in ios apps.
 
-Installation
-==============================
+##CocoaPods##
+
+```pod 'iTellAFriend',
+        :podspec => 'https://raw.github.com/arturgrigor/iTellAFriend/master/iTellAFriend.podspec'```
+
+##Installation##
 To install iTellAFriend into your app, drag the iTellAFriend.h, .m into your project. 
 
 iTellAFriend requires no configuration at all and will use the application's bundle ID to look the app ID up on the App Store.
